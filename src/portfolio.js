@@ -1,5 +1,11 @@
 import React, { Component } from 'react'
 import imgTest from './Photos/img1.jpeg'
+import img1 from './SamplePhotolios/SamplePhoto_1.jpeg'
+import img2 from './SamplePhotolios/SamplePhoto_2.jpeg'
+import img3 from './SamplePhotolios/SamplePhoto_3.jpeg'
+import img4 from './SamplePhotolios/SamplePhoto_4.jpeg'
+import img5 from './SamplePhotolios/SamplePhoto_5.jpeg'
+import img6 from './SamplePhotolios/SamplePhoto_6.jpeg'
 import PdfResume from './Documents/GarrettWestonResume.pdf'
 
 
@@ -28,7 +34,7 @@ const projects = [
   // make a path for each, have the function render that
 
   {
-    imgImport: imgTest,
+    imgImport: img1,
     /*
     description:
       'Description for tile 1 here...',
@@ -38,7 +44,7 @@ const projects = [
     */
   },
   {
-    imgImport: imgTest,
+    imgImport: img2,
     /*
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
@@ -48,7 +54,7 @@ const projects = [
     */
   },
   {
-    imgImport: imgTest,
+    imgImport: img3,
     /*
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
@@ -58,13 +64,13 @@ const projects = [
     */
   },
   {
-    imgImport: imgTest,
+    imgImport: img4,
   },
   {
-    imgImport: imgTest,
+    imgImport: img5,
   },
   {
-    imgImport: imgTest,
+    imgImport: img6,
   },
 ]
 
