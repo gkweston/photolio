@@ -7,7 +7,8 @@
 
 .light {
   --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
+  /* --clr-bg-alt: #fff; */
+  --clr-bg-alt: rgb(240, 239, 239); /*for slides*/
   --clr-fg: #555;
   --clr-fg-alt: #444;
   --clr-primary: #2978b5;
@@ -16,7 +17,8 @@
 
 .dark {
   --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
+  /* --clr-bg-alt: #2a2f4c; */
+  --clr-bg-alt: rgb(240, 239, 239); /*for slides*/
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
   --clr-primary: #90a0d9;

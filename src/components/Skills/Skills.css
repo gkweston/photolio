@@ -8,5 +8,10 @@
 }
 
 .skills__list-item {
-  margin: 0.5em;
+  margin: 0.75em;
+}
+
+.skills__img {
+  max-width: 900px;
+  width: 65rem;
 }
