@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import imgTest from './Photos/img1.jpeg'
 import PdfResume from './Documents/GarrettWestonResume.pdf'
 
 
@@ -23,26 +24,47 @@ const about = {
 
 const projects = [
   // if there are no projects, Projects section won't show up
+
+  // make a path for each, have the function render that
+
   {
+    imgImport: imgTest,
+    /*
     description:
       'Description for tile 1 here...',
     stack: ['stack1', 'stack2', 'stack3'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    */
   },
   {
+    imgImport: imgTest,
+    /*
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    */
   },
   {
+    imgImport: imgTest,
+    /*
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
+    */
+  },
+  {
+    imgImport: imgTest,
+  },
+  {
+    imgImport: imgTest,
+  },
+  {
+    imgImport: imgTest,
   },
 ]
 
@@ -56,7 +78,6 @@ const skills = [
   'E',
   'F',
   'G',
-  'H'
 ]
 
 const contact = {

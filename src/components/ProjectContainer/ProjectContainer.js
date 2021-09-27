@@ -1,27 +1,15 @@
 import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
-import imgTest from '../../Photos/imgTest.JPG'
 import './ProjectContainer.css'
-
-// const imgTest = require('../../Photos/imgTest.JPG')
 
 const ProjectContainer = ({ project }) => (
   
   <div className='project'>
-
+    
     <div className='imgTest'>
-      <img src={ imgTest } height='300' width='300' alt='none' />
+      <img src={ (project.imgImport) } height='300' width='300' alt='not found' />
     </div>
-
-    {/*
-    <img 
-      src={ imgTest.default }
-      height='200'
-      width='200'
-      alt='not found'
-    />
-    */}
 
     {/*
     <p className='project__description'>{project.description}</p>
