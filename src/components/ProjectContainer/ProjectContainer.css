@@ -1,5 +1,6 @@
 .project {
-  padding: 2em;
+  padding: 1.5em;
+  padding-bottom: 5em;
   margin: 0 auto;
   text-align: center;
   box-shadow: var(--shadow);
@@ -10,6 +11,7 @@
   transform: translateY(-7px);
 }
 
+/*
 .project__description {
   margin-top: 1em;
 }
@@ -31,3 +33,4 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+*/

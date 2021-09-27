@@ -24,7 +24,6 @@ const about = {
 const projects = [
   // if there are no projects, Projects section won't show up
   {
-    name: 'Tile 1',
     description:
       'Description for tile 1 here...',
     stack: ['stack1', 'stack2', 'stack3'],
@@ -32,7 +31,6 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 2',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],
@@ -40,7 +38,6 @@ const projects = [
     livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
     description:
       'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
     stack: ['SASS', 'TypeScript', 'React'],

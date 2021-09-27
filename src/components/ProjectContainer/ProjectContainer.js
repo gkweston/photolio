@@ -1,12 +1,29 @@
 import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
+import imgTest from '../../Photos/imgTest.JPG'
 import './ProjectContainer.css'
 
-const ProjectContainer = ({ project }) => (
-  <div className='project'>
-    <h3>{project.name}</h3>
+// const imgTest = require('../../Photos/imgTest.JPG')
 
+const ProjectContainer = ({ project }) => (
+  
+  <div className='project'>
+
+    <div className='imgTest'>
+      <img src={ imgTest } height='300' width='300' alt='none' />
+    </div>
+
+    {/*
+    <img 
+      src={ imgTest.default }
+      height='200'
+      width='200'
+      alt='not found'
+    />
+    */}
+
+    {/*
     <p className='project__description'>{project.description}</p>
     {project.stack && (
       <ul className='project__stack'>
@@ -17,6 +34,7 @@ const ProjectContainer = ({ project }) => (
         ))}
       </ul>
     )}
+    
 
     {project.sourceCode && (
       <a
@@ -37,6 +55,7 @@ const ProjectContainer = ({ project }) => (
         <LaunchIcon />
       </a>
     )}
+    */}
   </div>
 )
 
