@@ -11,7 +11,7 @@ import PdfResume from './Documents/GarrettWestonResume.pdf'
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'www.photolio.com',
+  homepage: 'www.bokehbox.us',
   title: 'photolio',
 }
 
