@@ -7,7 +7,7 @@
 
 .light {
   --clr-bg: #fcfcfc;
-  /* --clr-bg-alt: #fff; */
+  /* --clr-bg-alt: #fff; def*/
   --clr-bg-alt: rgb(240, 239, 239); /*for slides*/
   --clr-fg: #555;
   --clr-fg-alt: #444;
@@ -16,12 +16,16 @@
 }
 
 .dark {
-  --clr-bg: #23283e;
-  /* --clr-bg-alt: #2a2f4c; */
+  /* --clr-bg: #23283e; def */
+  --clr-bg: #202436;
+  /* --clr-bg-alt: #2a2f4c; def*/
   --clr-bg-alt: rgb(240, 239, 239); /*for slides*/
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
+  /* --clr-fg: #bdbddd; text coloring */
+  --clr-fg: #cacad4;
+  /* --clr-fg-alt: #cdcdff; first wording */
+  /* --clr-primary: #90a0d9; last wording */
+  --clr-fg-alt: #97bcdf;
+  --clr-primary: #c8cbd4;
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }

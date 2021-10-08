@@ -1,4 +1,4 @@
-import { contact } from '../../portfolio'
+import { contact } from '../../homepage'
 import './Contact.css'
 
 const Contact = () => {
