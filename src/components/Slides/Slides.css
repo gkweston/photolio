@@ -1,0 +1,17 @@
+.slides__list {
+  max-width: 450px;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.slides__list-item {
+  margin: 0.75em;
+}
+
+.slides__img {
+  max-width: 900px;
+  width: 65rem;
+}

@@ -1,0 +1,14 @@
+.class_gallery {
+  padding: 1.5em;
+  padding-bottom: 5em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+  /* background-color: #fff; */
+  background-color: rgba(255, 255, 255, 0.897);
+}
+
+.class_gallery:hover {
+  transform: translateY(-10px);
+}
