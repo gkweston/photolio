@@ -24,9 +24,9 @@ const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Garrett Weston',
   role: 'Photographer',
-  description:
-    'I love to explore the intersection of new media, classical techniques, and see how people respond to them. In some ways, this could be editing modern digital photos to have a vintage feel. Or taking 6x6 film photographs and currating them in a custom digital repository. In this case, a simple photographic portfolio of some of my work.',
-  resume: 'NaNbREAd',
+  // just a really long string, nothing to see here
+  description: 'I\'m a student developer who loves to explore the intersections of classical media and new platforms (along with other things) and learn about how different platforms can have an impact on different people\'s lives. This page originally started as a COMM class project I hacked together late one night (showcasing photography, paired with an experimental blog format), but now I\'m using it as a foundation to develop my personal website and explore modern CI/CD principles. Cheers! :)',
+  resume: './Documents/GarrettWestonResume.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/garrettweston',
     github: 'https://github.com/gkweston',
